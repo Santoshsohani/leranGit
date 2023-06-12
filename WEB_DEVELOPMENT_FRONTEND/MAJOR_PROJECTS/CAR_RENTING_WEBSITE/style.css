@@ -1,0 +1,256 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ /* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+
+ /* utility classes */
+
+ .flex{
+    display: flex;
+    align-items: center;
+ }
+
+
+ .container{
+    max-width: 90%;
+    margin: auto;
+ }
+ .primary-btn{
+    color: white;
+    background-color: #FF4C30;
+    text-align: center;
+    padding: 1em 2em;
+    border-radius: 10px;
+ }
+
+  .secondary-btn{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 1em 2em;
+    border-radius: 10px;
+ }
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.small-bold-text{
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.heading{
+    font-size: 3em;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+}
+
+.paragraph{
+    font-size: 1em;
+    color: gray;
+}
+
+.secondary-heading{
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+span{
+    color: #FF4C30;
+    font-size: larger;
+    font-weight: 700;
+}
+
+/* nav bar */
+
+.nav-bar{
+    margin-block: 2em;
+}
+
+.nav-bar .nav-logo img{
+    width: 10em;
+}
+
+.nav-list{
+    justify-content: space-between;
+    align-items: center;
+    gap: 4em;
+}
+
+.nav-bar,.nav-list,.buttons{
+    justify-content: space-around;
+}
+
+.buttons{
+    gap: 2em;
+}
+
+/* Hero Section */
+
+.hero-section-one .hero-section-buttons{
+    margin-top: 2em;
+}
+
+.hero-section-buttons a{
+    margin-right: 1em;
+}
+
+.hero-section-two img{
+   height: 98%;
+   width: 100%;
+}
+
+.hero-section-one{
+    width: 45%;
+    margin: auto;
+}
+
+.hero-section{
+    justify-content: space-around;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+/* Booking section */
+
+.booking{
+    width: 70%;
+    margin: auto;
+    padding: 3em;
+    flex-wrap: wrap;
+    border: 2px soild #FF4C30;
+    justify-content: center ;
+    border: 2px soild salmon;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input input{
+    padding: 1.2rem 1.3rem;
+    margin: 0.5em;
+    width: 15em;
+}
+
+.input{
+    gap: 5px;
+}
+
+.primary-btn-modify{
+ padding: 1em 7em; 
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1.2em;
+    margin-left: 0.8em;
+}
+
+/* Headers */
+
+.headers{
+    text-align: center;
+    margin-block: 4em;
+}
+
+/* card section */
+
+.card-section .card{
+    width: 20%;
+    text-align: center;
+    justify-content: space-evenlyx;
+    align-items: center;
+    margin: auto;
+}
+
+.card-section{
+    margin-block: 4em;
+}
+
+/* Secondary Headers */
+
+.header-two{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+/* Car display */
+
+.car-display{
+    justify-content: space-around;
+    margin-block: 1em;
+}
+
+.car-img img{
+    width: 105%;
+}
+
+.table-one ul li{
+    color: black;
+    background-color: rgb(233, 233, 233);
+    margin-block: 1em;
+    padding: 1em 1.3em;
+}
+
+.table-two ul li{
+    color: white;
+    background-color: #FF4C30;
+    margin-block: 1em;
+    padding: 1em 1.3em;
+    cursor: pointer;
+}
+
+.table-one ul li:hover{
+    cursor: pointer;
+    color: white;
+    background-color:#FF4C30;
+    margin-block: 1em;
+    padding: 1em 1.3em;
+}
+
+
+.table-two ul{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Save add */
+
+.save-add{
+    background-color: #2D2D2D;
+    text-align: center;
+    color: white;
+    padding-block: 3em;
+    margin-block: 3em;
+}
+
+/* cars-images */
+
+.cars-images{
+    padding-block: 3em;
+    width: 70%;
+    margin: auto;
+}
+
+/* secondary card section */
+
+
+
